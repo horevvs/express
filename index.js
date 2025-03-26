@@ -41,7 +41,11 @@ app.use("/contact", function (_, response) {
     response.redirect("https://tpu.ru")
 });
 
+app.use("/contact2", function (_, response) {
+    response.redirect("https://tpu.ru")
+});
 
+// https://metanit.com/web/nodejs/4.13.php
 
 
 
