@@ -5,12 +5,10 @@ const __dirname = path.resolve()
 const app = express()
 const PORT = process.env.PORT ?? 3000
 
-
 // как не делают
 // app.get('/', (req, res) => {
 //     res.send('<h1>Привет Вован <h1>')
 // })
-
 
 // читаем с файла 
 //  res.sendFile(path.resolve(__dirname, 'static', 'index.html')) отправляем с помощью данного метода статические файлы
